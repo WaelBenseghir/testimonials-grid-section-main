@@ -32,7 +32,7 @@ body{
     font-size: var(--fs-primary);
     font-family: var(--ff-primary);
     font-weight: var(--fw-regular);
-    padding: 4em 1.5em;
+    padding: 5em 1.5em;
 }
 
 .card{
@@ -75,6 +75,7 @@ body{
 }
 
 .main{
+    max-width: 1110px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-areas: 
@@ -83,7 +84,7 @@ body{
     "w"
     "b"
     "kw";
-    gap: 1.5rem;
+    gap: 2rem;
 }
 
 .purple{
